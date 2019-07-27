@@ -1,0 +1,4 @@
+<module>
+	<source path='com/java' />
+	<source path='com/bulletphysics' />
+</module>

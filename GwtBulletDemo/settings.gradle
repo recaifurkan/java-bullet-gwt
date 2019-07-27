@@ -1,0 +1,4 @@
+rootProject.name = 'GdxBulletDemo'
+
+include 'desktop', 'html', 'core'
+
