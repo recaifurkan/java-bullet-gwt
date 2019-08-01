@@ -23,12 +23,12 @@
 
 package com.bulletphysics.linearmath;
 
-import java.util.Comparator;
-
 import com.badlogic.gdx.utils.FloatArray;
 import com.badlogic.gdx.utils.IntArray;
 import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Supplier;
+
+import java.util.Comparator;
 
 
 /**

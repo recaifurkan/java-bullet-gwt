@@ -23,8 +23,6 @@
 
 package com.bulletphysics.dynamics.constraintsolver;
 
-import java.util.Random;
-
 import com.badlogic.gdx.math.Matrix3;
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.IntArray;
@@ -40,11 +38,9 @@ import com.bulletphysics.linearmath.IDebugDraw;
 import com.bulletphysics.linearmath.MiscUtil;
 import com.bulletphysics.linearmath.Transform;
 import com.bulletphysics.linearmath.TransformUtil;
-import com.bulletphysics.util.ObjectArrayList;
-import com.bulletphysics.util.ObjectPool;
-import com.bulletphysics.util.Stack;
-import com.bulletphysics.util.StaticAlloc;
-import com.bulletphysics.util.Supplier;
+import com.bulletphysics.util.*;
+
+import java.util.Random;
 
 /** SequentialImpulseConstraintSolver uses a Propagation Method and Sequentially applies impulses. The approach is the 3D version
  * of Erin Catto's GDC 2006 tutorial. See http://www.gphysics.com

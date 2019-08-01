@@ -25,8 +25,6 @@
 
 package com.bulletphysics.collision.broadphase;
 
-import java.util.Collections;
-
 import com.badlogic.gdx.math.Vector3;
 import com.badlogic.gdx.utils.IntArray;
 import com.bulletphysics.BulletGlobals;
@@ -35,6 +33,8 @@ import com.bulletphysics.linearmath.Transform;
 import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Stack;
 import com.bulletphysics.util.Supplier;
+
+import java.util.Collections;
 
 /** @author jezek2 */
 public class Dbvt {

@@ -38,7 +38,7 @@ import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Stack;
 
 /**
- * SimpleDynamicsWorld serves as unit-test and to verify more complicated and
+ * SimpleDynamicsWorld serves as unit-tests and to verify more complicated and
  * optimized dynamics worlds. Please use {@link DiscreteDynamicsWorld} instead
  * (or ContinuousDynamicsWorld once it is finished).
  * 

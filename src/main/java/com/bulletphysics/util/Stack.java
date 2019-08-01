@@ -8,7 +8,6 @@ import com.bulletphysics.extras.gimpact.BoxCollision.BoxBoxTransformCache;
 import com.bulletphysics.extras.gimpact.PrimitiveTriangle;
 import com.bulletphysics.extras.gimpact.TriangleContact;
 import com.bulletphysics.linearmath.Transform;
-
 import com.java.lang.ThreadLocal;
 
 public class Stack {

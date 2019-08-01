@@ -23,19 +23,10 @@
 
 package com.bulletphysics.dynamics;
 
-import java.util.Comparator;
-
 import com.badlogic.gdx.math.Vector3;
 import com.bulletphysics.BulletGlobals;
 import com.bulletphysics.BulletStats;
-import com.bulletphysics.collision.broadphase.BroadphaseInterface;
-import com.bulletphysics.collision.broadphase.BroadphaseNativeType;
-import com.bulletphysics.collision.broadphase.BroadphasePair;
-import com.bulletphysics.collision.broadphase.BroadphaseProxy;
-import com.bulletphysics.collision.broadphase.CollisionFilterGroups;
-import com.bulletphysics.collision.broadphase.Dispatcher;
-import com.bulletphysics.collision.broadphase.DispatcherInfo;
-import com.bulletphysics.collision.broadphase.OverlappingPairCache;
+import com.bulletphysics.collision.broadphase.*;
 import com.bulletphysics.collision.dispatch.CollisionConfiguration;
 import com.bulletphysics.collision.dispatch.CollisionObject;
 import com.bulletphysics.collision.dispatch.CollisionWorld;
@@ -43,7 +34,6 @@ import com.bulletphysics.collision.dispatch.SimulationIslandManager;
 import com.bulletphysics.collision.narrowphase.ManifoldPoint;
 import com.bulletphysics.collision.narrowphase.PersistentManifold;
 import com.bulletphysics.collision.shapes.BoxShape;
-import com.bulletphysics.collision.shapes.CapsuleShape;
 import com.bulletphysics.collision.shapes.CollisionShape;
 import com.bulletphysics.collision.shapes.CompoundShape;
 import com.bulletphysics.collision.shapes.SphereShape;
@@ -53,9 +43,10 @@ import com.bulletphysics.dynamics.constraintsolver.SequentialImpulseConstraintSo
 import com.bulletphysics.dynamics.constraintsolver.TypedConstraint;
 import com.bulletphysics.dynamics.vehicle.RaycastVehicle;
 import com.bulletphysics.linearmath.*;
-import com.bulletphysics.linearmath.IDebugDraw;
 import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Stack;
+
+import java.util.Comparator;
 
 /**
  * DiscreteDynamicsWorld provides discrete rigid body simulation.
@@ -734,7 +725,7 @@ public class DiscreteDynamicsWorld extends DynamicsWorld {
 
 									convexSweepTest(tmpSphere, body.getWorldTransform(tmpTrans), predictedTrans,
 											sweepResults);
-									// JAVA NOTE: added closestHitFraction test to prevent objects being stuck
+									// JAVA NOTE: added closestHitFraction tests to prevent objects being stuck
 									if (sweepResults.hasHit() && (sweepResults.closestHitFraction > 0.0001f)) {
 										body.setHitFraction(sweepResults.closestHitFraction);
 										body.predictIntegratedTransform(timeStep * body.getHitFraction(),

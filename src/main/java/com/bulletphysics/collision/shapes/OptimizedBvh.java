@@ -23,8 +23,6 @@
 
 package com.bulletphysics.collision.shapes;
 
-import java.io.Serializable;
-
 import com.badlogic.gdx.math.Vector3;
 import com.bulletphysics.linearmath.AabbUtil2;
 import com.bulletphysics.linearmath.MiscUtil;
@@ -32,6 +30,8 @@ import com.bulletphysics.linearmath.VectorUtil;
 import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Stack;
 import com.bulletphysics.util.Supplier;
+
+import java.io.Serializable;
 
 // JAVA NOTE: OptimizedBvh still from 2.66, update it for 2.70b1
 
@@ -1004,7 +1004,7 @@ public class OptimizedBvh implements Serializable {
 			tmp.set(0f, 0f, 0f);
 			walkStacklessQuantizedTreeAgainstRay(nodeCallback, raySource, rayTarget, tmp, tmp, 0, curNodeIndex);
 		} else {
-			/* Otherwise fallback to AABB overlap test */
+			/* Otherwise fallback to AABB overlap tests */
 			Vector3 aabbMin = stack.alloc(raySource);
 			Vector3 aabbMax = stack.alloc(raySource);
 			VectorUtil.setMin(aabbMin, rayTarget);

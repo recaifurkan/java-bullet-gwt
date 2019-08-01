@@ -26,7 +26,6 @@ package com.bulletphysics;
 import com.bulletphysics.util.ArrayPool;
 import com.bulletphysics.util.ObjectPool;
 import com.bulletphysics.util.Stack;
-
 import com.java.lang.ThreadLocal;
 
 /**

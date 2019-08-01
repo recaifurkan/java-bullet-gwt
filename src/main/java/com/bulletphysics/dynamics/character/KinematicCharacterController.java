@@ -40,7 +40,7 @@ import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Stack;
 
 /** KinematicCharacterController is an object that supports a sliding motion in a world. It uses a {@link GhostObject} and convex
- * sweep test to test for upcoming collisions. This is combined with discrete collision detection to recover from penetrations.
+ * sweep tests to tests for upcoming collisions. This is combined with discrete collision detection to recover from penetrations.
  * <p>
  *
  * Interaction between KinematicCharacterController and dynamic rigid bodies needs to be explicity implemented by the user.

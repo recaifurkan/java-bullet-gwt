@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="gdxBulletGwt.main:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/gdxBulletGwt_main_jar</output-path>
+    <root id="archive" name="gdxBulletGwt.main.jar">
+      <element id="module-output" name="gdxBulletGwt.main" />
+      <element id="module-source" name="gdxBulletGwt.main" />
+    </root>
+  </artifact>
+</component>

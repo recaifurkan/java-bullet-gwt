@@ -23,10 +23,10 @@
 
 package com.bulletphysics.util;
 
+import com.java.lang.ThreadLocal;
+
 import java.util.HashMap;
 import java.util.Map;
-
-import com.java.lang.ThreadLocal;
 
 
 /**

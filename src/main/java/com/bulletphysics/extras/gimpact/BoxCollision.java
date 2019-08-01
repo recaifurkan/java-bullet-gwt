@@ -542,7 +542,7 @@ public class BoxCollision {
 			return true;
 		}
 
-		/** Simple test for planes. */
+		/** Simple tests for planes. */
 		public boolean collide_plane (Quaternion plane) {
 			PlaneIntersectionType classify = plane_classify(plane);
 			return (classify == PlaneIntersectionType.COLLIDE_PLANE);

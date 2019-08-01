@@ -3,8 +3,17 @@ package com.byrfb.client;
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.backends.gwt.GwtApplication;
 import com.badlogic.gdx.backends.gwt.GwtApplicationConfiguration;
-import com.bulletphysics.test.bullet3dcontacttests.BulletTest;
 import com.byrfb.Launcher;
+
+/**
+ *
+ * Eğer içinde gwt bulunan bir source kodlu kütüphane kullancksan gradle ile yaparken
+ * artifact olrak jar yapacaksın sonra out taki yolunu html projesine vereksin proje olarak da core module
+ * ekleyeceksin
+ * o zaman çok fazla değişiklik yapman gerekmez
+ *
+ *
+ */
 
 public class HtmlLauncher extends GwtApplication {
 

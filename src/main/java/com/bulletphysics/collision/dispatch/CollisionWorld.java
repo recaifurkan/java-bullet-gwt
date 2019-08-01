@@ -27,31 +27,11 @@ import com.badlogic.gdx.math.Matrix3;
 import com.badlogic.gdx.math.Vector3;
 import com.bulletphysics.BulletGlobals;
 import com.bulletphysics.BulletStats;
-import com.bulletphysics.collision.broadphase.BroadphaseInterface;
-import com.bulletphysics.collision.broadphase.BroadphaseNativeType;
-import com.bulletphysics.collision.broadphase.BroadphaseProxy;
-import com.bulletphysics.collision.broadphase.CollisionFilterGroups;
-import com.bulletphysics.collision.broadphase.Dispatcher;
-import com.bulletphysics.collision.broadphase.DispatcherInfo;
-import com.bulletphysics.collision.broadphase.OverlappingPairCache;
-import com.bulletphysics.collision.narrowphase.ConvexCast;
+import com.bulletphysics.collision.broadphase.*;
+import com.bulletphysics.collision.narrowphase.*;
 import com.bulletphysics.collision.narrowphase.ConvexCast.CastResult;
-import com.bulletphysics.collision.narrowphase.GjkConvexCast;
-import com.bulletphysics.collision.narrowphase.GjkEpaPenetrationDepthSolver;
-import com.bulletphysics.collision.narrowphase.SubsimplexConvexCast;
-import com.bulletphysics.collision.narrowphase.TriangleConvexcastCallback;
-import com.bulletphysics.collision.narrowphase.TriangleRaycastCallback;
-import com.bulletphysics.collision.narrowphase.VoronoiSimplexSolver;
-import com.bulletphysics.collision.shapes.BvhTriangleMeshShape;
-import com.bulletphysics.collision.shapes.CollisionShape;
-import com.bulletphysics.collision.shapes.CompoundShape;
-import com.bulletphysics.collision.shapes.ConcaveShape;
-import com.bulletphysics.collision.shapes.ConvexShape;
-import com.bulletphysics.collision.shapes.SphereShape;
-import com.bulletphysics.collision.shapes.StaticPlaneShape;
-import com.bulletphysics.collision.shapes.TriangleMeshShape;
+import com.bulletphysics.collision.shapes.*;
 import com.bulletphysics.linearmath.*;
-import com.bulletphysics.linearmath.IDebugDraw;
 import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Stack;
 
@@ -99,6 +79,7 @@ public class CollisionWorld {
 	public void addCollisionObject (CollisionObject collisionObject, short collisionFilterGroup, short collisionFilterMask) {
 		// check that the object isn't already added
 		assert (!collisionObjects.contains(collisionObject));
+		boolean isContain = collisionObjects.contains(collisionObject);
 
 		Stack stack = Stack.enter();
 		collisionObjects.add(collisionObject);

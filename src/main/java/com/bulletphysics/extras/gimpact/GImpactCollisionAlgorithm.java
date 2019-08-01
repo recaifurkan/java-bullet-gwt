@@ -473,7 +473,7 @@ public class GImpactCollisionAlgorithm extends CollisionAlgorithm {
 			ptri0.buildTriPlane();
 			ptri1.buildTriPlane();
 
-			// test conservative
+			// tests conservative
 			if (ptri0.overlap_test_conservative(ptri1)) {
 				if (ptri0.find_triangle_collision_clip_method(ptri1, contact_data)) {
 
@@ -605,7 +605,7 @@ public class GImpactCollisionAlgorithm extends CollisionAlgorithm {
 		Quaternion plane = stack.allocQuaternion();
 		PlaneShape.get_plane_equation_transformed(planeshape, orgtrans1, plane);
 
-		// test box against plane
+		// tests box against plane
 
 		AABB tribox = stack.allocAABB();
 		shape0.getAabb(orgtrans0, tribox.min, tribox.max);

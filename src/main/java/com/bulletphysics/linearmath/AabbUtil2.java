@@ -103,7 +103,7 @@ public class AabbUtil2 {
 		return false;
 	}
 
-	/** Conservative test for overlap between two AABBs. */
+	/** Conservative tests for overlap between two AABBs. */
 	public static boolean testAabbAgainstAabb2 (Vector3 aabbMin1, Vector3 aabbMax1, Vector3 aabbMin2, Vector3 aabbMax2) {
 		boolean overlap = true;
 		overlap = (aabbMin1.x > aabbMax2.x || aabbMax1.x < aabbMin2.x) ? false : overlap;
@@ -112,7 +112,7 @@ public class AabbUtil2 {
 		return overlap;
 	}
 
-	/** Conservative test for overlap between triangle and AABB. */
+	/** Conservative tests for overlap between triangle and AABB. */
 	public static boolean testTriangleAgainstAabb2 (Vector3[] vertices, Vector3 aabbMin, Vector3 aabbMax) {
 		Vector3 p1 = vertices[0];
 		Vector3 p2 = vertices[1];

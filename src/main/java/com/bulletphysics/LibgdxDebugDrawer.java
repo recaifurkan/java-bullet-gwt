@@ -23,15 +23,11 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer.ShapeType;
 import com.badlogic.gdx.math.Vector3;
-
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Disposable;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.bulletphysics.linearmath.DebugDrawModes;
 import com.bulletphysics.linearmath.DebugModesType;
 import com.bulletphysics.linearmath.IDebugDraw;
-import com.bulletphysics.linearmath.Transform;
-import com.bulletphysics.linearmath.VectorUtil;
 
 
 

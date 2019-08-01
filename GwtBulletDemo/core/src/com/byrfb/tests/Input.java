@@ -1,4 +1,4 @@
-package com.bulletphysics.test.bullet3dcontacttests;
+package com.byrfb.tests;
 
 import com.badlogic.gdx.InputProcessor;
 import com.bulletphysics.linearmath.DebugModesType;

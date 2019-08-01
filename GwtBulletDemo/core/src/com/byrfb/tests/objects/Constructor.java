@@ -1,4 +1,4 @@
-package com.bulletphysics.test.bullet3dcontacttests.objects;
+package com.byrfb.tests.objects;
 
 import com.badlogic.gdx.graphics.g3d.Model;
 import com.badlogic.gdx.math.Vector3;

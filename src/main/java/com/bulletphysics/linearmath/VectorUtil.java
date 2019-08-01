@@ -25,7 +25,6 @@ package com.bulletphysics.linearmath;
 
 import com.badlogic.gdx.math.Quaternion;
 import com.badlogic.gdx.math.Vector3;
-
 import com.java.lang.InternalError;
 
 /** Utility functions for vectors.

@@ -23,9 +23,9 @@
 
 package com.bulletphysics.collision.shapes;
 
-import java.io.Serializable;
-
 import com.badlogic.gdx.math.Vector3;
+
+import java.io.Serializable;
 
 /**
  * OptimizedBvhNode contains both internal and leaf node information.

@@ -1,5 +1,5 @@
 
-package com.byrfb;
+package com.byrfb.tests;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
@@ -28,11 +28,12 @@ import com.bulletphysics.collision.dispatch.*;
 import com.bulletphysics.collision.narrowphase.ManifoldPoint;
 import com.bulletphysics.collision.shapes.*;
 import com.bulletphysics.linearmath.Transform;
-import com.bulletphysics.test.bullet3dcontacttests.objects.Constructor;
-import com.bulletphysics.test.bullet3dcontacttests.objects.GameObject;
+import com.byrfb.tests.objects.Constructor;
+import com.byrfb.tests.objects.GameObject;
 
-
-public class BulletTestContackCallbak implements ApplicationListener {
+/** @see https://xoppa.github.io/blog/using-the-libgdx-3d-physics-bullet-wrapper-part2/
+ * @author Xoppa */
+public class BulletTest1 implements ApplicationListener {
 	final static short GROUND_FLAG = 1 << 8;
 	final static short OBJECT_FLAG = 1 << 9;
 	final static short ALL_FLAG = -1;
@@ -44,10 +45,11 @@ public class BulletTestContackCallbak implements ApplicationListener {
 
 		@Override
 		public boolean contactAdded(ManifoldPoint cp, CollisionObject colObj0, int partId0, int index0,
-                                    CollisionObject colObj1, int partId1, int index1) {
+				CollisionObject colObj1, int partId1, int index1) {
 			
 			Object col0 = colObj0.getUserPointer();
 			Object col1 = colObj1.getUserPointer();
+			System.out.println("Collision");
 			
 			
 			if(col0 !=null) {
@@ -161,8 +163,7 @@ public class BulletTestContackCallbak implements ApplicationListener {
 
 	@Override
 	public void render () {
-
-		final float delta = 0.1f;
+		final float delta = Math.min(1f / 30f, Gdx.graphics.getDeltaTime());
 
 		for (GameObject obj : instances) {
 			if (obj.moving) {

@@ -3,7 +3,7 @@
 <module rename-to="html">
 	<inherits name='com.badlogic.gdx.backends.gdx_backends_gwt' />
 
-	<inherits name='BulletPhysics' />
+
 	<inherits name='GwtBulletTest' />
 	<entry-point class='com.byrfb.client.HtmlLauncher' />
 	<set-configuration-property name='xsiframe.failIfScriptTag' value='FALSE'/>

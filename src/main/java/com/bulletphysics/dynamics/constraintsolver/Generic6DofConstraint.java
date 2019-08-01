@@ -36,9 +36,10 @@ import com.bulletphysics.BulletGlobals;
 import com.bulletphysics.dynamics.RigidBody;
 import com.bulletphysics.linearmath.MatrixUtil;
 import com.bulletphysics.linearmath.Transform;
-/// 
 import com.bulletphysics.linearmath.VectorUtil;
 import com.bulletphysics.util.Stack;
+
+///
 
 /*!
 
@@ -266,7 +267,7 @@ public class Generic6DofConstraint extends TypedConstraint {
 	public boolean testAngularLimitMotor (int axis_index) {
 		float angle = VectorUtil.getCoord(calculatedAxisAngleDiff, axis_index);
 
-		// test limits
+		// tests limits
 		angularLimits[axis_index].testLimitValue(angle);
 		return angularLimits[axis_index].needApplyTorques();
 	}

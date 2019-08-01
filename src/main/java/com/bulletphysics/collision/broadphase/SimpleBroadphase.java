@@ -27,7 +27,7 @@ import com.badlogic.gdx.math.Vector3;
 import com.bulletphysics.util.ObjectArrayList;
 
 /**
- * SimpleBroadphase is just a unit-test for {@link AxisSweep3}, {@link AxisSweep3_32},
+ * SimpleBroadphase is just a unit-tests for {@link AxisSweep3}, {@link AxisSweep3_32},
  * or {@link DbvtBroadphase}, so use those classes instead. It is a brute force AABB
  * culling broadphase based on O(n^2) AABB checks.
  * 

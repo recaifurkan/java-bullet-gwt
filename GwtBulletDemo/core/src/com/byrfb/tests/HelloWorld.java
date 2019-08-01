@@ -22,7 +22,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-package com.bulletphysics.test;
+package com.byrfb.tests;
 
 import com.badlogic.gdx.math.Vector3;
 import com.bulletphysics.collision.broadphase.AxisSweep3;

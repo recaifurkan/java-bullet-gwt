@@ -23,9 +23,9 @@
 
 package com.bulletphysics.collision.shapes;
 
-import java.nio.ByteBuffer;
-
 import com.badlogic.gdx.math.Vector3;
+
+import java.nio.ByteBuffer;
 
 /**
  *

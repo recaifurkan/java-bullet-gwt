@@ -480,7 +480,7 @@ public class VoronoiSimplexSolver extends SimplexSolverInterface {
 				}
 			}
 
-			// Repeat test for face acd
+			// Repeat tests for face acd
 			if (pointOutsideACD != 0) {
 				closestPtPointTriangle(p, a, c, d, tempResult);
 				q.set(tempResult.closestPointOnSimplex);
@@ -501,7 +501,7 @@ public class VoronoiSimplexSolver extends SimplexSolverInterface {
 
 				}
 			}
-			// Repeat test for face adb
+			// Repeat tests for face adb
 
 			if (pointOutsideADB != 0) {
 				closestPtPointTriangle(p, a, d, b, tempResult);
@@ -523,7 +523,7 @@ public class VoronoiSimplexSolver extends SimplexSolverInterface {
 
 				}
 			}
-			// Repeat test for face bdc
+			// Repeat tests for face bdc
 
 			if (pointOutsideBDC != 0) {
 				closestPtPointTriangle(p, b, d, c, tempResult);

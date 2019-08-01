@@ -1,10 +1,8 @@
-package com.bulletphysics.test.bullet3dcontacttests.objects;
+package com.byrfb.tests.objects;
 
 import com.badlogic.gdx.graphics.g3d.Model;
 import com.badlogic.gdx.graphics.g3d.ModelInstance;
-
 import com.badlogic.gdx.utils.Disposable;
-
 import com.bulletphysics.dynamics.RigidBody;
 import com.bulletphysics.dynamics.RigidBodyConstructionInfo;
 

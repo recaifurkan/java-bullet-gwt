@@ -3,9 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="GdxBulletDemo.bullet.main" target="1.8" />
-      <module name="GdxBulletDemo.bullet.test" target="1.8" />
-      <module name="GdxBulletDemo.gdxBulletGwt.main" target="1.8" />
-      <module name="GdxBulletDemo.gdxBulletGwt.test" target="1.8" />
+      <module name="GdxBulletDemo.bullet.test" target="1.6" />
       <module name="GwtBulletDemo.bullet.main" target="1.8" />
       <module name="GwtBulletDemo.bullet.test" target="1.8" />
       <module name="GwtBulletDemo.core.main" target="1.6" />
@@ -14,6 +12,7 @@
       <module name="GwtBulletDemo.desktop.test" target="1.6" />
       <module name="GwtBulletDemo.html.main" target="1.6" />
       <module name="GwtBulletDemo.html.test" target="1.6" />
+      <module name="java-bullet-gwt.GdxBulletDemo.bullet.main" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>

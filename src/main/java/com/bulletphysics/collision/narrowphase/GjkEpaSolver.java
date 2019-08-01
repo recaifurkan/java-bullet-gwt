@@ -23,8 +23,6 @@
 
 package com.bulletphysics.collision.narrowphase;
 
-import java.util.Arrays;
-
 import com.badlogic.gdx.math.Matrix3;
 import com.badlogic.gdx.math.Quaternion;
 import com.badlogic.gdx.math.Vector3;
@@ -38,6 +36,8 @@ import com.bulletphysics.util.ArrayPool;
 import com.bulletphysics.util.ObjectStackList;
 import com.bulletphysics.util.Stack;
 import com.bulletphysics.util.Supplier;
+
+import java.util.Arrays;
 
 /*
 GJK-EPA collision solver by Nathanael Presson

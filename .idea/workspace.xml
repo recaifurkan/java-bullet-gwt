@@ -1,11 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="gdxBulletGwt.main:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="83b97350-9a62-4b01-b2b2-514ca2044fde" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTestContackCallbak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/html/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/html/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/libs/gdxBulletGwt.main.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/src/GwtBulletTest.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/GwtBulletTest.gwt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/BulletTestContackCallbak.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/objects/Constructor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/objects/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/objects/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/GdxDefinition.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/GdxDefinition.gwt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/client/HtmlLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/client/HtmlLauncher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GwtBulletDemo/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/BulletPhysics.gwt.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/BulletGlobals$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/BulletGlobals$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/BulletGlobals.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/BulletGlobals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/BulletStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/BulletStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/ContactAddedCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/ContactAddedCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/ContactDestroyedCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/ContactDestroyedCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/ContactProcessedCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/ContactProcessedCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/LibgdxDebugDrawer.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/LibgdxDebugDrawer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3$EdgeArrayImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3$EdgeArrayImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3$HandleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3$HandleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal$EdgeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal$EdgeArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal$Handle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal$Handle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3Internal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3_32$EdgeArrayImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3_32$EdgeArrayImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3_32$HandleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3_32$HandleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3_32.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/AxisSweep3_32.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphaseInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphaseInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphaseNativeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphaseNativeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphasePair$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphasePair$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphasePair.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphasePair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphaseProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/BroadphaseProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/CollisionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/CollisionAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/CollisionAlgorithmConstructionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/CollisionAlgorithmConstructionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/CollisionFilterGroups.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/CollisionFilterGroups.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$IClone.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$IClone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$ICollide.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$ICollide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$IWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$IWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkCLN.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkCLN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkNN.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkNN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkNP.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkNP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkNPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt$sStkNPS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dbvt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtAabbMm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtAabbMm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtBroadphase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtBroadphase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtLeafCollider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtLeafCollider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtTreeCollider.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DbvtTreeCollider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DispatchFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DispatchFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/Dispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DispatcherInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/DispatcherInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache$CleanPairCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache$CleanPairCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache$RemovePairCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache$RemovePairCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/HashedOverlappingPairCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlapCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlapCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlapFilterCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlapFilterCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlappingPairCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlappingPairCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlappingPairCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/OverlappingPairCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/SimpleBroadphase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/SimpleBroadphase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/SimpleBroadphaseProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/broadphase/SimpleBroadphaseProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionAlgorithmCreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionAlgorithmCreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionDispatcher$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionDispatcher$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionDispatcher$CollisionPairCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionDispatcher$CollisionPairCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionDispatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionDispatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionFlags.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionFlags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionObjectType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionObjectType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$BridgeTriangleConvexcastCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$BridgeTriangleConvexcastCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$BridgeTriangleRaycastCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$BridgeTriangleRaycastCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$ClosestConvexResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$ClosestConvexResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$ClosestRayResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$ClosestRayResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$ConvexResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$ConvexResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$LocalConvexResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$LocalConvexResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$LocalRayResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$LocalRayResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$LocalShapeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$LocalShapeInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$RayResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld$RayResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CollisionWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$CreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$CreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$CreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$CreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$SwappedCreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$SwappedCreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$SwappedCreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm$SwappedCreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/CompoundCollisionAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$CreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$CreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$CreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$CreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$LocalTriangleSphereCastCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$LocalTriangleSphereCastCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$SwappedCreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$SwappedCreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$SwappedCreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm$SwappedCreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConcaveCollisionAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm$CreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm$CreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm$CreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm$CreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexPlaneCollisionAlgorithm$CreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexPlaneCollisionAlgorithm$CreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexPlaneCollisionAlgorithm$CreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexPlaneCollisionAlgorithm$CreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexPlaneCollisionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexPlaneCollisionAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexTriangleCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ConvexTriangleCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/DefaultCollisionConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/DefaultCollisionConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/DefaultNearCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/DefaultNearCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/EmptyAlgorithm$CreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/EmptyAlgorithm$CreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/EmptyAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/EmptyAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/GhostObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/GhostObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/GhostPairCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/GhostPairCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ManifoldResult$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ManifoldResult$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ManifoldResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/ManifoldResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/NearCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/NearCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/PairCachingGhostObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/PairCachingGhostObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SimulationIslandManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SimulationIslandManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SimulationIslandManager$IslandCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SimulationIslandManager$IslandCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SimulationIslandManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SimulationIslandManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SphereSphereCollisionAlgorithm$CreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SphereSphereCollisionAlgorithm$CreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SphereSphereCollisionAlgorithm$CreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SphereSphereCollisionAlgorithm$CreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SphereSphereCollisionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/SphereSphereCollisionAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind$Element.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/dispatch/UnionFind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ConvexCast$CastResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ConvexCast$CastResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ConvexCast.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ConvexCast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ConvexPenetrationDepthSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ConvexPenetrationDepthSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/DiscreteCollisionDetectorInterface$ClosestPointInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/DiscreteCollisionDetectorInterface$ClosestPointInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/DiscreteCollisionDetectorInterface$Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/DiscreteCollisionDetectorInterface$Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/DiscreteCollisionDetectorInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/DiscreteCollisionDetectorInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkConvexCast$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkConvexCast$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkConvexCast.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkConvexCast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaPenetrationDepthSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaPenetrationDepthSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$EPA.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$EPA.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$Face.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$Face.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$GJK.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$GJK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$He.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$He.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$Mkv.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$Mkv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$Results.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$Results.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$ResultsStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver$ResultsStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkEpaSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkPairDetector.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/GjkPairDetector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ManifoldPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/ManifoldPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/PersistentManifold.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/PersistentManifold.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/PointCollector.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/PointCollector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/SimplexSolverInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/SimplexSolverInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/SubsimplexConvexCast.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/SubsimplexConvexCast.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/TriangleConvexcastCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/TriangleConvexcastCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/TriangleRaycastCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/TriangleRaycastCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver$SubSimplexClosestResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver$SubSimplexClosestResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver$UsageBitfield.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver$UsageBitfield.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BU_Simplex1to4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BU_Simplex1to4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BoxShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BoxShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhSubtreeInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhSubtreeInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhTriangleMeshShape$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhTriangleMeshShape$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhTriangleMeshShape$MyNodeOverlapCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhTriangleMeshShape$MyNodeOverlapCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhTriangleMeshShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/BvhTriangleMeshShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ByteBufferVertexData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ByteBufferVertexData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CapsuleShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CapsuleShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CapsuleShapeX.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CapsuleShapeX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CapsuleShapeZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CapsuleShapeZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CollisionShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CollisionShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CompoundShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CompoundShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CompoundShapeChild.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CompoundShapeChild.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConcaveShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConcaveShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConeShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConeShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConeShapeX.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConeShapeX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConeShapeZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConeShapeZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConvexHullShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConvexHullShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConvexInternalShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConvexInternalShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConvexShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ConvexShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CylinderShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CylinderShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CylinderShapeX.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CylinderShapeX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CylinderShapeZ.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/CylinderShapeZ.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/IndexedMesh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/IndexedMesh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/InternalTriangleIndexCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/InternalTriangleIndexCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/MinkowskiSumShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/MinkowskiSumShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/NodeOverlapCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/NodeOverlapCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$NodeTriangleCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$NodeTriangleCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$QuantizedNodeTriangleCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh$QuantizedNodeTriangleCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvhNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/OptimizedBvhNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/PolyhedralConvexShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/PolyhedralConvexShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/QuantizedBvhNodes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/QuantizedBvhNodes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ScalarType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ScalarType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ScaledBvhTriangleMeshShape$ScaledTriangleCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ScaledBvhTriangleMeshShape$ScaledTriangleCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ScaledBvhTriangleMeshShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ScaledBvhTriangleMeshShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ShapeHull.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/ShapeHull.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/SphereShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/SphereShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StaticPlaneShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StaticPlaneShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StridingMeshInterface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StridingMeshInterface$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StridingMeshInterface$AabbCalculationCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StridingMeshInterface$AabbCalculationCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StridingMeshInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/StridingMeshInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TraversalMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TraversalMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleIndexVertexArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleIndexVertexArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleMeshShape$FilteredCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleMeshShape$FilteredCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleMeshShape$SupportVertexCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleMeshShape$SupportVertexCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleMeshShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleMeshShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/TriangleShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/UniformScalingShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/UniformScalingShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/VertexData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/collision/shapes/VertexData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/ActionInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/ActionInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$ClosestNotMeConvexResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$ClosestNotMeConvexResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$InplaceSolverIslandCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld$InplaceSolverIslandCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DiscreteDynamicsWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DynamicsWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DynamicsWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DynamicsWorldType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/DynamicsWorldType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/InternalTickCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/InternalTickCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/RigidBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/RigidBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/RigidBodyConstructionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/RigidBodyConstructionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/SimpleDynamicsWorld.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/SimpleDynamicsWorld.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/character/KinematicCharacterController$KinematicClosestNotMeConvexResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/character/KinematicCharacterController$KinematicClosestNotMeConvexResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/character/KinematicCharacterController$KinematicClosestNotMeRayResultCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/character/KinematicCharacterController$KinematicClosestNotMeRayResultCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/character/KinematicCharacterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/character/KinematicCharacterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ConeTwistConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ConeTwistConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ConstraintPersistentData.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ConstraintPersistentData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ConstraintSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ConstraintSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraintEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactConstraintEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactSolverFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactSolverFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactSolverInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/ContactSolverInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/Generic6DofConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/Generic6DofConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/HingeConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/HingeConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/JacobianEntry.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/JacobianEntry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/Point2PointConstraint$ConstraintSetting.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/Point2PointConstraint$ConstraintSetting.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/Point2PointConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/Point2PointConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/RotationalLimitMotor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/RotationalLimitMotor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$OrderIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver$OrderIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SliderConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SliderConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverBody.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverBody.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverConstraintType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverConstraintType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverMode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/SolverMode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/TranslationalLimitMotor.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/TranslationalLimitMotor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/TypedConstraint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/TypedConstraint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/TypedConstraintType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/constraintsolver/TypedConstraintType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/DefaultVehicleRaycaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/DefaultVehicleRaycaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/RaycastVehicle$WheelContactPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/RaycastVehicle$WheelContactPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/RaycastVehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/RaycastVehicle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/VehicleRaycaster.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/VehicleRaycaster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/VehicleRaycasterResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/VehicleRaycasterResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/VehicleTuning.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/VehicleTuning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/WheelInfo$RaycastInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/WheelInfo$RaycastInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/WheelInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/WheelInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/WheelInfoConstructionInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/dynamics/vehicle/WheelInfoConstructionInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BoxCollision$AABB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BoxCollision$AABB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BoxCollision$BoxBoxTransformCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BoxCollision$BoxBoxTransformCache.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BoxCollision.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BoxCollision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BvhDataArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BvhDataArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BvhTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BvhTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BvhTreeNodeArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/BvhTreeNodeArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/ClipPolygon.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/ClipPolygon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever$ChildShapeRetriever.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever$ChildShapeRetriever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever$TetraShapeRetriever.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever$TetraShapeRetriever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever$TriangleShapeRetriever.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever$TriangleShapeRetriever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GIM_ShapeRetriever.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactBvh.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactBvh.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm$CreateFunc$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm$CreateFunc$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm$CreateFunc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm$CreateFunc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactMassUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactMassUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactMeshShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactMeshShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactMeshShapePart.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactMeshShapePart.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactShapeInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactShapeInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactTriangleCallback.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GImpactTriangleCallback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GeometryOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/GeometryOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PairSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PairSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PlaneIntersectionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PlaneIntersectionType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PlaneShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PlaneShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PrimitiveManagerBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PrimitiveManagerBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PrimitiveTriangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/PrimitiveTriangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/Quantization.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/Quantization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/ShapeType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/ShapeType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TetrahedronShapeEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TetrahedronShapeEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TriangleContact.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TriangleContact.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TriangleShapeEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TriangleShapeEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TrimeshPrimitiveManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/extras/gimpact/TrimeshPrimitiveManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/AabbUtil2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/AabbUtil2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/CProfileIterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/CProfileIterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/CProfileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/CProfileManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/CProfileNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/CProfileNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/Clock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/DebugDrawModes.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/DebugDrawModes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/DebugModesType.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/DebugModesType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/DefaultMotionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/DefaultMotionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/GeometryUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/GeometryUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/IDebugDraw.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/IDebugDraw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/MatrixUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/MatrixUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/MiscUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/MiscUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/MotionState.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/MotionState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/QuaternionUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/QuaternionUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/ScalarUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/ScalarUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/Transform.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/Transform.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/TransformUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/TransformUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/VectorUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/VectorUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullDesc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullDesc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullFlags.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullFlags.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullLibrary$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullLibrary$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullLibrary.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullLibrary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/HullResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Int3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Int3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Int3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Int3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Int4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Int4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/IntRef.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/IntRef.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/PHullResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/PHullResult.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Tri$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Tri$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Tri.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/linearmath/convexhull/Tri.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/BulletTest$GameObject$Constructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/BulletTest$GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/BulletTest$MyContactListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/BulletTest$MyMotionState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/BulletTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/BulletTest1$MyContactListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/BulletTest1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/objects/Constructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/test/bullet3dcontacttests/objects/GameObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$IntValue.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool$IntValue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ArrayPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectPool$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectPool$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectPool.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectPool.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectStackList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/ObjectStackList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/StackList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/StackList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/StaticAlloc.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/StaticAlloc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Supplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Suppliers$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Suppliers$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Suppliers$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Suppliers$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Suppliers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/bulletphysics/util/Suppliers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/io/Externalizable.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/io/Externalizable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/io/IOException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/io/IOException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/io/ObjectInput.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/io/ObjectInput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/io/ObjectOutput.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/io/ObjectOutput.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/ClassNotFoundException.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/ClassNotFoundException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/InternalError.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/InternalError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/ThreadLocal.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/ThreadLocal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/reflect/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/java/lang/reflect/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BulletPhysics.gwt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BulletPhysics.gwt.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/BulletGlobals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/BulletGlobals.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/LibgdxDebugDrawer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/LibgdxDebugDrawer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/broadphase/Dbvt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/broadphase/Dbvt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/broadphase/SimpleBroadphase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/broadphase/SimpleBroadphase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/CollisionDispatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/CollisionDispatcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/CollisionWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/CollisionWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/ConvexConvexAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/DefaultCollisionConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/DefaultCollisionConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/GhostPairCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/GhostPairCallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/SimulationIslandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/SimulationIslandManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/narrowphase/GjkEpaSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/narrowphase/GjkEpaSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/narrowphase/VoronoiSimplexSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/ByteBufferVertexData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/ByteBufferVertexData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/ConvexInternalShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/ConvexInternalShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/OptimizedBvh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/OptimizedBvh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/OptimizedBvhNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/OptimizedBvhNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/TriangleIndexVertexArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/TriangleIndexVertexArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/DiscreteDynamicsWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/DiscreteDynamicsWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/RigidBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/RigidBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/SimpleDynamicsWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/SimpleDynamicsWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/character/KinematicCharacterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/character/KinematicCharacterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/ConeTwistConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/ConeTwistConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/Generic6DofConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/Generic6DofConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/HingeConstraint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/HingeConstraint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/constraintsolver/SequentialImpulseConstraintSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/extras/gimpact/BoxCollision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/extras/gimpact/BoxCollision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/extras/gimpact/GImpactCollisionAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/AabbUtil2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/AabbUtil2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/MiscUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/MiscUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/VectorUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/VectorUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/BulletTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/BulletTest1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/objects/Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/objects/Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/objects/GameObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/util/ArrayPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/util/ArrayPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/util/ObjectPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/util/ObjectPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bulletphysics/util/Stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bulletphysics/util/Stack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -23,11 +435,16 @@
     <ignored path="$PROJECT_DIR$/GwtBulletDemo/html/out/" />
     <ignored path="$PROJECT_DIR$/../.gradle/" />
     <ignored path="$PROJECT_DIR$/../build/" />
+    <ignored path="$PROJECT_DIR$/GwtBulletDemo/Users/foo/workspace/stdlib/dagger/.gradle/" />
+    <ignored path="$PROJECT_DIR$/GwtBulletDemo/Users/foo/workspace/stdlib/dagger/build/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -43,97 +460,133 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/GwtBulletDemo">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GdxBulletDemo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GdxBulletDemo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="GdxBulletDemo" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="gwt" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/build.gradle">
+        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="32" selection-start-column="20" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="68">
-                <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/html/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Input.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Launcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+            <state relative-caret-position="-385">
+              <caret line="212" column="67" selection-start-line="212" selection-start-column="67" selection-end-line="212" selection-end-column="67" />
               <folding>
-                <element signature="e#136#137#0" expanded="true" />
-                <element signature="e#189#190#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/GdxDefinition.gwt.xml">
+        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="37" />
+            <state relative-caret-position="-2074">
+              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/DebugModesType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="23" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/desktop/src/com/byrfb/desktop/DesktopLauncher.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="63" column="94" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTestContackCallbak.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="155" column="79" selection-start-line="155" selection-start-column="79" selection-end-line="155" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setActivati</find>
+      <find>moti</find>
+      <find>addrig</find>
+      <find>spa</find>
+      <find>setupg</find>
+      <find>setUpG</find>
+      <find>addrigi</find>
+      <find>spawn</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,17 +594,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/GwtBulletDemo/build.gradle" />
-        <option value="$PROJECT_DIR$/GwtBulletDemo/core/build.gradle" />
-        <option value="$PROJECT_DIR$/GwtBulletDemo/settings.gradle" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/test/com/byrfb/test/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/BulletTest1.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bulletphysics/ContactAddedCallback.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/BulletTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/CollisionWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bulletphysics/test/bullet3dcontacttests/objects/Constructor.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/test/bullet3dcontacttests/objects/Constructor.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/BulletTestContackCallbak.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Input.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest1.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/GdxDefinition.gwt.xml" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/GwtBulletTest.gwt.xml" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/BulletPhysics.gwt.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/BulletPhysics.gwt.xml" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/settings.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/build.gradle" />
         <option value="$PROJECT_DIR$/GwtBulletDemo/html/build.gradle" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/client/HtmlLauncher.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest.java" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTestContackCallbak.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/GwtBulletDemo/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="85" />
-    <option name="y" value="25" />
+    <option name="x" value="590" />
+    <option name="y" value="-15" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -162,6 +635,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,17 +648,10 @@
               <item name="java-bullet-gwt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="GwtBulletDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="java-bullet-gwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-bullet-gwt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="GwtBulletDemo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="html" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,10 +659,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="E:/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/GwtBulletDemo" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/GwtBulletDemo/core/libs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2787068" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpaces\Java\gdxBulletGwt\java-bullet-gwt\GwtBulletDemo\core\libs" />
+      <recent name="F:\WorkSpaces\Java\gdxBulletGwt\java-bullet-gwt\GwtBulletDemo\core\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -209,7 +686,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.GwtBulletDemo [superDev]">
     <configuration name="DesktopLauncher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.byrfb.desktop.DesktopLauncher" />
       <module name="GdxBulletDemo.desktop.main" />
@@ -223,9 +700,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GwtBulletDemo [superDev]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/GwtBulletDemo" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="superDev" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DesktopLauncher" />
+        <item itemvalue="Gradle.GwtBulletDemo [superDev]" />
       </list>
     </recent_temporary>
   </component>
@@ -245,18 +742,21 @@
       <workItem from="1563994499966" duration="955000" />
       <workItem from="1563998920616" duration="4000" />
       <workItem from="1564241888846" duration="1617000" />
-      <workItem from="1564243942464" duration="45000" />
+      <workItem from="1564243942464" duration="644000" />
+      <workItem from="1564516453683" duration="738000" />
+      <workItem from="1564599270757" duration="1228000" />
+      <workItem from="1564664990895" duration="21904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2979000" />
+    <option name="totallyTimeSpent" value="27448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24462366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2715054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -265,9 +765,9 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19886364" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -278,14 +778,14 @@
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32954547" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.13068181" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Gradle" order="6" visible="true" weight="0.19892474" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -295,58 +795,266 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/CollisionWorld.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/math/Matrix3.java">
+    <entry file="jar://$PROJECT_DIR$/GwtBulletDemo/core/libs/gdxBulletGwt.main.jar!/com/bulletphysics/test/bullet3dcontacttests/objects/Constructor.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9177">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/math/Vector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="459">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/math/Vector3.java">
+    <entry file="jar://$PROJECT_DIR$/GwtBulletDemo/core/libs/gdxBulletGwt.main.jar!/com/bulletphysics/collision/dispatch/CollisionWorld.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        <state relative-caret-position="132">
+          <caret line="69" column="16" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/LibgdxDebugDrawer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1789">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GwtBulletDemo/core/libs/gdxBulletGwt.main.jar!/com/bulletphysics/linearmath/DebugModesType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/GwtBulletDemo/core/libs/gdxBulletGwt.main.jar!/com/bulletphysics/test/bullet3dcontacttests/BulletTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-391">
+          <caret line="77" column="11" selection-start-line="77" selection-start-column="11" selection-end-line="77" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/test/com/byrfb/test/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.10/bc819db135041daf18548095a4224fdf91128d4c/gdx-backend-lwjgl-1.9.10-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglGraphics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#3378#3379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-lwjgl/1.9.10/bc819db135041daf18548095a4224fdf91128d4c/gdx-backend-lwjgl-1.9.10-sources.jar!/com/badlogic/gdx/backends/lwjgl/LwjglApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="188" selection-start-line="188" selection-end-line="188" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/ActionInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/GhostPairCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/Transform.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="52" column="11" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/broadphase/Dispatcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/util/ObjectArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/shapes/CompoundShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2602">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/BulletGlobals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="69" column="48" lean-forward="true" selection-start-line="69" selection-start-column="48" selection-end-line="69" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/ContactAddedCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="40" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/ConvexPlaneCollisionAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="127" column="31" selection-start-line="127" selection-start-column="31" selection-end-line="127" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/ManifoldResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-777">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/graphics/g3d/ModelInstance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/RigidBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3191">
-          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        <state relative-caret-position="5963">
+          <caret line="597" column="24" selection-start-line="597" selection-start-column="24" selection-end-line="597" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/collision/dispatch/CollisionWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="175">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/desktop/src/com/byrfb/desktop/DesktopLauncher.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/DiscreteDynamicsWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        <state relative-caret-position="63">
+          <caret line="435" column="23" selection-start-line="435" selection-start-column="16" selection-end-line="435" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/build.gradle">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/RigidBodyConstructionInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="149">
+          <caret line="80" column="11" selection-start-line="80" selection-start-column="11" selection-end-line="80" selection-end-column="11" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/objects/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/objects/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="32" />
+          <folding>
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/Input.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/dynamics/DynamicsWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="107" column="25" selection-start-line="107" selection-start-column="25" selection-end-line="107" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/GdxDefinition.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/GwtBulletTest.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/BulletPhysics.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -355,64 +1063,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="408">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/GdxDefinitionSuperdev.gwt.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        <state relative-caret-position="136">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
           <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#189#190#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/GdxDefinition.gwt.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/BulletPhysics.gwt.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="68">
-            <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="102">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GwtBulletDemo/html/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="67">
           <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/html/src/com/byrfb/client/HtmlLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2027#2028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-385">
+          <caret line="212" column="67" selection-start-line="212" selection-start-column="67" selection-end-line="212" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2074">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bulletphysics/linearmath/DebugModesType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/core/src/com/byrfb/tests/BulletTestContackCallbak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="155" column="79" selection-start-line="155" selection-start-column="79" selection-end-line="155" selection-end-column="79" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/desktop/src/com/byrfb/desktop/DesktopLauncher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GwtBulletDemo/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="63" column="94" lean-forward="true" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="94" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>gdxBulletGwt.main:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2787068" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>main|gdxBulletGwt</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

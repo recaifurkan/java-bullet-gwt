@@ -1,4 +1,5 @@
 rootProject.name = 'GdxBulletDemo'
 
 include 'desktop', 'html', 'core'
-
+include ':gdxBulletGwt'
+project(':gdxBulletGwt').projectDir = new File('F:\\WorkSpaces\\Java\\gdxBulletGwt\\java-bullet-gwt')

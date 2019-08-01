@@ -23,11 +23,11 @@
 
 package com.bulletphysics.collision.dispatch;
 
-import java.util.Comparator;
-
 import com.bulletphysics.linearmath.MiscUtil;
 import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Supplier;
+
+import java.util.Comparator;
 
 /**
  * UnionFind calculates connected subsets. Implements weighted Quick Union with

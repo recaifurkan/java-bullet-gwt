@@ -23,8 +23,6 @@
 
 package com.bulletphysics.collision.dispatch;
 
-import java.util.Comparator;
-
 import com.bulletphysics.BulletStats;
 import com.bulletphysics.collision.broadphase.BroadphasePair;
 import com.bulletphysics.collision.broadphase.Dispatcher;
@@ -32,6 +30,8 @@ import com.bulletphysics.collision.narrowphase.PersistentManifold;
 import com.bulletphysics.linearmath.MiscUtil;
 import com.bulletphysics.util.ObjectArrayList;
 import com.bulletphysics.util.Stack;
+
+import java.util.Comparator;
 
 
 /**
