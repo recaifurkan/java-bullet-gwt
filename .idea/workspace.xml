@@ -497,7 +497,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -577,24 +577,6 @@
             <path>
               <item name="java-bullet-gwt" type="b2602c69:ProjectViewProjectNode" />
               <item name="java-bullet-gwt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-bullet-gwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-bullet-gwt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-bullet-gwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-bullet-gwt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-bullet-gwt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-bullet-gwt" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
-              <item name="gdxBulletGwt_main_jar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -693,12 +675,12 @@
       <workItem from="1564243942464" duration="644000" />
       <workItem from="1564516453683" duration="738000" />
       <workItem from="1564599270757" duration="1228000" />
-      <workItem from="1564664990895" duration="22159000" />
+      <workItem from="1564664990895" duration="22230000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27703000" />
+    <option name="totallyTimeSpent" value="27774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1129,7 +1111,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+          <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
       </provider>
     </entry>
